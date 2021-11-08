@@ -1,0 +1,7 @@
+/*!***********************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./dev/scss/reset.scss ***!
+  \***********************************************************************/*,:after,:before{box-sizing:border-box}ol[class],ul[class]{padding:0}blockquote,body,dd,dl,figcaption,figure,h1,h2,h3,h4,li,ol[class],p,ul[class]{margin:0}body{text-rendering:optimizeSpeed;line-height:1.5;min-height:100vh;scroll-behavior:smooth}ol[class],ul[class]{list-style:none}a:not([class]){text-decoration-skip-ink:auto}img{display:block;max-width:100%}article>*+*{margin-top:1em}button,input,select,textarea{font:inherit}@media (prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}}
+
+/*!*****************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./dev/scss/dev-page.scss ***!
+  \*****************************************************************************************************************/

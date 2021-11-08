@@ -1,0 +1,147 @@
+<head><script defer src="index.js"></script></head>Html Webpack Plugin:
+<pre>
+  Error: Child compilation failed:
+  Module build failed (from ./node_modules/pug-loader/index.js):
+  Error: Cannot find module 'pug'
+  Require stack:
+  - C:\Users\asano\Desktop\sample webpack\node_modules\pug-loader\index.js
+  - C:\Users\asano\Desktop\sample webpack\node_modules\loader-runner\lib\loadL  oader.js
+  - C:\Users\asano\Desktop\sample webpack\node_modules\loader-runner\lib\Loade  rRunner.js
+  - C:\Users\asano\Desktop\sample webpack\node_modules\webpack\lib\NormalModul  eFactory.js
+  - C:\Users\asano\Desktop\sample webpack\node_modules\webpack\lib\Compiler.js  - C:\Users\asano\Desktop\sample webpack\node_modules\webpack\lib\webpack.js
+  - C:\Users\asano\Desktop\sample webpack\node_modules\webpack\lib\index.js
+  - C:\Users\asano\Desktop\sample webpack\node_modules\webpack-cli\lib\webpack  -cli.js
+  - C:\Users\asano\Desktop\sample webpack\node_modules\webpack-cli\lib\bootstr  ap.js
+  - C:\Users\asano\Desktop\sample webpack\node_modules\webpack-cli\bin\cli.js
+  - C:\Users\asano\Desktop\sample webpack\node_modules\webpack\bin\webpack.js
+      at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:  15)
+      at Function.resolve (internal/modules/cjs/helpers.js:99:19)
+      at Object.module.exports (C:\Users\asano\Desktop\sample webpack\node_mod  ules\pug-loader\index.js:11:28)
+  ModuleBuildError: Module build failed (from ./node_modules/pug-loader/index.  js):
+  Error: Cannot find module 'pug'
+  Require stack:
+  - C:\Users\asano\Desktop\sample webpack\node_modules\pug-loader\index.js
+  - C:\Users\asano\Desktop\sample webpack\node_modules\loader-runner\lib\loadL  oader.js
+  - C:\Users\asano\Desktop\sample webpack\node_modules\loader-runner\lib\Loade  rRunner.js
+  - C:\Users\asano\Desktop\sample webpack\node_modules\webpack\lib\NormalModul  eFactory.js
+  - C:\Users\asano\Desktop\sample webpack\node_modules\webpack\lib\Compiler.js  - C:\Users\asano\Desktop\sample webpack\node_modules\webpack\lib\webpack.js
+  - C:\Users\asano\Desktop\sample webpack\node_modules\webpack\lib\index.js
+  - C:\Users\asano\Desktop\sample webpack\node_modules\webpack-cli\lib\webpack  -cli.js
+  - C:\Users\asano\Desktop\sample webpack\node_modules\webpack-cli\lib\bootstr  ap.js
+  - C:\Users\asano\Desktop\sample webpack\node_modules\webpack-cli\bin\cli.js
+  - C:\Users\asano\Desktop\sample webpack\node_modules\webpack\bin\webpack.js
+      at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:  15)
+      at Function.resolve (internal/modules/cjs/helpers.js:99:19)
+      at Object.module.exports (C:\Users\asano\Desktop\sample webpack\node_mod  ules\pug-loader\index.js:11:28)
+      at processResult (C:\Users\asano\Desktop\sample webpack\node_modules\web  pack\lib\NormalModule.js:751:19)
+      at C:\Users\asano\Desktop\sample webpack\node_modules\webpack\lib\Normal  Module.js:853:5
+      at C:\Users\asano\Desktop\sample webpack\node_modules\loader-runner\lib\  LoaderRunner.js:399:11
+      at C:\Users\asano\Desktop\sample webpack\node_modules\loader-runner\lib\  LoaderRunner.js:251:18
+      at runSyncOrAsync (C:\Users\asano\Desktop\sample webpack\node_modules\lo  ader-runner\lib\LoaderRunner.js:156:3)
+      at iterateNormalLoaders (C:\Users\asano\Desktop\sample webpack\node_modu  les\loader-runner\lib\LoaderRunner.js:250:2)
+      at C:\Users\asano\Desktop\sample webpack\node_modules\loader-runner\lib\  LoaderRunner.js:223:4
+      at C:\Users\asano\Desktop\sample webpack\node_modules\webpack\lib\Normal  Module.js:827:15
+      at Array.eval (eval at create (C:\Users\asano\Desktop\sample webpack\nod  e_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:12:1)
+      at runCallbacks (C:\Users\asano\Desktop\sample webpack\node_modules\enha  nced-resolve\lib\CachedInputFileSystem.js:27:15)
+  
+  - loader.js:902 Function.Module._resolveFilename
+    internal/modules/cjs/loader.js:902:15
+  
+  - helpers.js:99 Function.resolve
+    internal/modules/cjs/helpers.js:99:19
+  
+  - index.js:11 Object.module.exports
+    [sample webpack]/[pug-loader]/index.js:11:28
+  
+  - ModuleBuildError: Module build failed (from ./node_modules/pug-loader/inde    x.js):
+  
+  - Error: Cannot find module 'pug'
+  
+  - Require stack:
+  
+  - - C:\Users\asano\Desktop\sample webpack\node_modules\pug-loader\index.js
+  
+  - - C:\Users\asano\Desktop\sample webpack\node_modules\loader-runner\lib\loa    dLoader.js
+  
+  - - C:\Users\asano\Desktop\sample webpack\node_modules\loader-runner\lib\Loa    derRunner.js
+  
+  - - C:\Users\asano\Desktop\sample webpack\node_modules\webpack\lib\NormalMod    uleFactory.js
+  
+  - - C:\Users\asano\Desktop\sample webpack\node_modules\webpack\lib\Compiler.    js
+  
+  - - C:\Users\asano\Desktop\sample webpack\node_modules\webpack\lib\webpack.j    s
+  
+  - - C:\Users\asano\Desktop\sample webpack\node_modules\webpack\lib\index.js
+  
+  - - C:\Users\asano\Desktop\sample webpack\node_modules\webpack-cli\lib\webpa    ck-cli.js
+  
+  - - C:\Users\asano\Desktop\sample webpack\node_modules\webpack-cli\lib\boots    trap.js
+  
+  - - C:\Users\asano\Desktop\sample webpack\node_modules\webpack-cli\bin\cli.j    s
+  
+  - - C:\Users\asano\Desktop\sample webpack\node_modules\webpack\bin\webpack.j    s
+  
+  - loader.js:902 Function.Module._resolveFilename
+    internal/modules/cjs/loader.js:902:15
+  
+  - helpers.js:99 Function.resolve
+    internal/modules/cjs/helpers.js:99:19
+  
+  - index.js:11 Object.module.exports
+    [sample webpack]/[pug-loader]/index.js:11:28
+  
+  - NormalModule.js:751 processResult
+    [sample webpack]/[webpack]/lib/NormalModule.js:751:19
+  
+  - NormalModule.js:853 
+    [sample webpack]/[webpack]/lib/NormalModule.js:853:5
+  
+  - LoaderRunner.js:399 
+    [sample webpack]/[loader-runner]/lib/LoaderRunner.js:399:11
+  
+  - LoaderRunner.js:251 
+    [sample webpack]/[loader-runner]/lib/LoaderRunner.js:251:18
+  
+  - LoaderRunner.js:156 runSyncOrAsync
+    [sample webpack]/[loader-runner]/lib/LoaderRunner.js:156:3
+  
+  - LoaderRunner.js:250 iterateNormalLoaders
+    [sample webpack]/[loader-runner]/lib/LoaderRunner.js:250:2
+  
+  - LoaderRunner.js:223 
+    [sample webpack]/[loader-runner]/lib/LoaderRunner.js:223:4
+  
+  - NormalModule.js:827 
+    [sample webpack]/[webpack]/lib/NormalModule.js:827:15
+  
+  
+  - CachedInputFileSystem.js:27 runCallbacks
+    [sample webpack]/[enhanced-resolve]/lib/CachedInputFileSystem.js:27:15
+  
+  - child-compiler.js:169 
+    [sample webpack]/[html-webpack-plugin]/lib/child-compiler.js:169:18
+  
+  - Compiler.js:559 
+    [sample webpack]/[webpack]/lib/Compiler.js:559:11
+  
+  - Compiler.js:1129 
+    [sample webpack]/[webpack]/lib/Compiler.js:1129:17
+  
+  
+  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [sample webpack]/[tapable]/lib/Hook.js:18:14
+  
+  - Compiler.js:1125 
+    [sample webpack]/[webpack]/lib/Compiler.js:1125:33
+  
+  - Compilation.js:2779 finalCallback
+    [sample webpack]/[webpack]/lib/Compilation.js:2779:11
+  
+  - Compilation.js:3084 
+    [sample webpack]/[webpack]/lib/Compilation.js:3084:11
+  
+  
+  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [sample webpack]/[tapable]/lib/Hook.js:18:14
+  
+</pre>
